@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="huboook.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="un/logo.png" alt="">
+            <ul>
+                <li><img src="un/notification.png"></li>
+                <li><img src="un/inbox.png"></li>
+                <li><img src="un/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="un/search.png" alt="">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="un/profile-pic.png">
+            </div>
+        </div>
+        <!---------------------------settings-menu-------->
+
+        <div class="setting-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="un/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="login.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="un/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="un/help.png" class="setting-icon">
+                    <a href="#">Help & Support <img src="un/arrow.png" width="10px" class="ff"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="un/setting.png" class="setting-icon">
+                    <a href="#">Settings & privacy <img src="un/arrow.png" width="10px"class="ff"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="un/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility<img src="un/arrow.png" width="10px" class="ff"> </a>
+                </div>
+                <div class="settings-links">
+                    <img src="un/logout.png" class="setting-icon">
+                    <a href="#">Logout <img src="un/arrow.png" width="10px" class="ff"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="profile-container">
+        <img src="un/feed-image-1.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="un/profile-pic.png" alt="">
+                    <div>
+                        <h3>Jackson Nicholson</h3>
+                        <p>120 Firends - 20 mutual </p>
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2021 - BTY Website developer Group</p>
+    </div>
+    <script src="hubook.js"></script>
+</body>
+
+</html>

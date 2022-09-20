@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="huboook.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="un/logo.png" alt="">
+            <ul>
+                <li><img src="un/notification.png"></li>
+                <li><img src="un/inbox.png"></li>
+                <li><img src="un/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="un/search.png" alt="">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="un/profile-pic.png">
+            </div>
+        </div>
+        <!---------------------------settings-menu-------->
+
+        <div class="setting-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="un/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="login.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="un/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="un/help.png" class="setting-icon">
+                    <a href="#">Help & Support <img src="un/arrow.png" width="10px" class="ff"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="un/setting.png" class="setting-icon">
+                    <a href="#">Settings & privacy <img src="un/arrow.png" width="10px"class="ff"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="un/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility<img src="un/arrow.png" width="10px" class="ff"> </a>
+                </div>
+                <div class="settings-links">
+                    <img src="un/logout.png" class="setting-icon">
+                    <a href="#">Logout <img src="un/arrow.png" width="10px" class="ff"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container">
+        <!-----------left-sidebar-->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="login.html"><img src="un/news.png">Latest News</a>
+                <a href="#"><img src="un/friends.png"> Friends</a>
+                <a href="#"><img src="un/group.png">Group</a>
+                <a href="#"><img src="un/marketplace.png">marketplace</a>
+                <a href="#"><img src="un/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="un/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="un/shortcut-2.png">Web Design course</a>
+                <a href="#"><img src="un/shortcut-3.png">Full Stack Dev</a>
+                <a href="#"><img src="un/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+        <!-----------main content-->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="un/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="un/member-1.png" alt="">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story3">
+                    <img src="un/member-2.png" alt="">
+                    <p>Samona</p>
+                </div>
+                <div class="story story4">
+                    <img src="un/member-3.png" alt="">
+                    <p>John Doe</p>
+                </div>
+                <div class="story story5">
+                    <img src="un/member-4.png" alt="">
+                    <p>John Doe</p>
+                </div>
+            </div>
+
+            <div class="wrte-post-container">
+                <div class="user-profile">
+                    <img src="un/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, John"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="un/live-video.png" alt=""> Live Video</a>
+                        <a href="#"><img src="un/photo.png" alt=""> Photo/Video</a>
+                        <a href="#"><img src="un/feeling.png" alt="">Feeling /Activity</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="un/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 11 2021, 12:20 am</span>
+                        </div>
+                    </div>
+                    <a href="#">|</a>
+                </div>
+
+                <p class="Post-text">Subscribe<span> <b>@BTY Youtube </b></span>channel to watch more video on website developement and UI designs. <a href="www.facebook.com">#BTY Website Developer</a> <a href="#">#BTY Youtube channel</a></p>
+                <img src="un/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="un/like-blue.png">120</div>
+                        <div><img src="un/comments.png">45</div>
+                        <div><img src="un/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="un/profile-pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="un/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 11 2021, 12:20 am</span>
+                        </div>
+                    </div>
+                    <a href="#">|</a>
+                </div>
+
+                <p class="Post-text">Like and share this project with friends, tag <span> <b>@BTY</b></span> facebook page on your post. Ask your doubts in the comments <a href="www.facebook.com">#BTY Website Developer</a> <a href="#">#BTY Youtube channel</a></p>
+                <img src="un/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="un/like.png">120</div>
+                        <div><img src="un/comments.png">45</div>
+                        <div><img src="un/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="un/profile-pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="un/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 11 2021, 12:20 am</span>
+                        </div>
+                    </div>
+                    <a href="#">|</a>
+                </div>
+
+                <p class="Post-text">Subscribe<span> <b>@BTY Youtube </b></span>channel to watch more video on website developement and UI designs. <a href="www.facebook.com">#BTY Website Developer</a> <a href="#">#BTY Youtube channel</a></p>
+                <img src="un/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="un/like-blue.png">120</div>
+                        <div><img src="un/comments.png">45</div>
+                        <div><img src="un/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="un/profile-pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="un/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 11 2021, 12:20 am</span>
+                        </div>
+                    </div>
+                    <a href="#">|</a>
+                </div>
+
+                <p class="Post-text">Subscribe<span> <b>@BTY Youtube </b></span>channel to watch more video on website developement and UI designs. <a href="www.facebook.com">#BTY Website Developer</a> <a href="#">#BTY Youtube channel</a></p>
+                <img src="un/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="un/like-blue.png">120</div>
+                        <div><img src="un/comments.png">45</div>
+                        <div><img src="un/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="un/profile-pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="un/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 11 2021, 12:20 am</span>
+                        </div>
+                    </div>
+                    <a href="#">|</a>
+                </div>
+
+                <p class="Post-text">Subscribe<span> <b>@BTY Youtube </b></span>channel to watch more video on website developement and UI designs. <a href="www.facebook.com">#BTY Website Developer</a> <a href="#">#BTY Youtube channel</a></p>
+                <img src="un/feed-image-5.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="un/like-blue.png">120</div>
+                        <div><img src="un/comments.png">45</div>
+                        <div><img src="un/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="un/profile-pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+
+        </div>
+        <!-----------right-sidebar-->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p>Willson Tech Park</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p>Willson Tech Park</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="un/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide CHat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="un/member-1.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="un/member-2.png">
+                </div>
+                <p>Samona Rose</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="un/member-3.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2021 - BTY Website developer Group</p>
+    </div>
+    <script src="hubook.js"></script>
+</body>
+
+</html>
